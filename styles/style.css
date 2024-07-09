@@ -33,13 +33,20 @@
     /* margin-top: 25px; */
     padding: 10px 10px;
 }
-.btn{
+
+/* button style */
+.btn-1{
     margin-top: 35px;
     font-size: 15px;
     background-color: #181818;
     color: #FFFFFF;
     border-radius: 8px;
     padding: 21px 24px;
+}
+.btn-2{
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: 1px solid #474747;
 }
 
 /* section-1 */
@@ -54,12 +61,17 @@ section{
 }
 .sec{
     padding: 80px 95px;
+    display: block;
 }
 .sec-1{
     text-align: center;
     padding: 0px 45px;
 }
-.sec-heading{
+.sec-1-heading{
     font-size: 30px;
     font-weight: 700;
+}
+.sec-2, .sec-3, .sec-4{
+    display: flex;
+    gap: 100px;
 }
