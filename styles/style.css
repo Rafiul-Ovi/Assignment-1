@@ -42,20 +42,23 @@
     color: #FFFFFF;
     border-radius: 8px;
     padding: 21px 24px;
+    cursor: pointer;
 }
 .btn-2{
     padding: 10px 20px;
     border-radius: 0px;
     border: 1px solid #474747;
+    cursor: pointer;
 }
 .btn-3{
     border: none;
     text-decoration: underline;
     background: transparent;
+    cursor: pointer;
 }
 
 /* section-1 */
-section{
+.sec-container, .inspiration-container, .next-container, .footer-sec-1{
     margin: 75px 150px 80px 150px;
 }
 .sec-container{
@@ -180,4 +183,26 @@ footer input[type="submit"]{
 }
 .input-text{
     padding-left: 15px;
+}
+.submit-font{
+    color: #181818;
+    font-size: 15px;
+    font-weight: 700;
+}
+.footer-sec-2{
+    display: flex;
+    align-items: center;
+    padding: 20px 150px;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 3%);
+    border: none;
+    border-radius: 10px;
+}
+.footer-font{
+    font-size: 16px;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    gap: 20px;
 }
