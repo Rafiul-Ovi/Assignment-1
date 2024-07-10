@@ -107,8 +107,10 @@
     border: 1px solid rgba(13, 19, 33, 20%);
     border-radius: 10px;
 }
-.youtube-video{
+.video-container iframe{
     padding: 30px;
+    border-radius: 10px;
+    border: none;
 }
 
 /* section-3 */
